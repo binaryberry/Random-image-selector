@@ -2,24 +2,37 @@
 <html>
 <head>
   <title>Random Image Selector</title>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="/javascript/support.js"></script>
+<script src="/javascript/application.js"></script>
 </head>
 <body>
 <h1>Random Image Selector</h1>
 
+
 <section id="select-colour">
   <h2>Step 1. Select a colour</h2>
 
-<a href="http://www.facebook.com"><img src="/images/blue.jpg" height="100" width="100"></a>
-<a href="http://www.facebook.com"><img src="/images/green.png" height="100" width="100"></a>
-<a href="http://www.facebook.com"><img src="/images/orange.gif" height="100" width="100"></a>
-<a href="http://www.facebook.com"><img src="/images/pink.jpg" height="100" width="100"></a>
-<a href="http://www.facebook.com"><img src="/images/Purple.gif" height="100" width="100"></a>
-<a href="http://www.facebook.com"><img src="/images/red.jpg" height="100" width="100"></a>
-<a href="http://www.facebook.com"><img src="/images/yellow.jpg" height="100" width="100"></a>
+  <input id="search-term" type="text">
+			<button id="go-search">Go!</button>
+			<div id="search-results"></div>
+			<div id="branding"></div>
 
+<!-- 	<a href="#go-search-blue"><img src="/images/blue.jpg" height="100" width="100"></a>
+	<a href="#go-search-green"><img src="/images/green.png" height="100" width="100"></a>
+	<a href="#go-search-orange"><img src="/images/orange.gif" height="100" width="100"></a>
+	<a href="#go-search-pink"><img src="/images/pink.jpg" height="100" width="100"></a>
+	<a href="#go-search-purple"><img src="/images/Purple.gif" height="100" width="100"></a>
+	<a href="#go-search-red"><img src="/images/red.jpg" height="100" width="100"></a>
+	<a href="#go-search-yellow"><img src="/images/yellow.jpg" height="100" width="100"></a>
+ -->
 </section>
+
 <section id="select-image">
-  <h2>Step 2. Select an image</h2>
+<!--   <h2>Step 2. Select an image</h2>
+  <div id="search-results"></div>
+  <div id="branding"></div> -->
 </section>
 
 </body>
